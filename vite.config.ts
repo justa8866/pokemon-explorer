@@ -8,6 +8,10 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: '/pokemon-explorer/',
+  server: {
+    host: true,
+  }
 })
 
 
