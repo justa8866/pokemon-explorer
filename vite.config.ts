@@ -7,11 +7,7 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
-  ],
-  base: '/pokemon-explorer/',
-  server: {
-    host: true,
-  }
+  ]
 })
 
 
